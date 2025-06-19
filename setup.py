@@ -43,7 +43,7 @@ setuptools.setup(
         "python-dateutil",
         'requests', 
         "typing_extensions >= 4.7.1",
-        "urllib3 >= 1.25.3, < 2.1.0",
+        "urllib3 >= 1.25.3, < 2.6.0",
     ],
     setup_requires=['pytest-runner'],
     tests_require=['pytest==7.4.3'],
